@@ -1,0 +1,28 @@
+.home {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    background-color: grey;
+
+}
+
+.home_image{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    /* mask-image: linear-gradient(to bottom, rgb(224, 217, 217), rgb(235, 230, 230)); */
+}
+
+.home_row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+
+}
+/* .home_Container{
+    max-width: 1500px;
+} */
